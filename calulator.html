@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+        <link rel="stylesheet" href="calulator.css">
+    <title>Calulator App</title>    
+</head>
+<body>
+    <script src="calulator.js"></script>
+    <center>
+    <table border="4">  
+        <tr>
+            <td colspan="3"><input type="text" id="cal" placeholder="LET CALULATE"> </td>
+            <td><input type="button" value="C" id="ca" onclick="clearscreen()"></td>
+            
+            </tr>
+            <tr>
+                <td><input type="button" value="1" id="ca" onclick="display(1)"></td>
+                <td><input type="button" value="2" id="ca"onclick="display(2)"></td>
+                <td><input type="button" value="3" id="ca"onclick="display(3)"></td>
+                <td><input type="button" value="/" id="ca"onclick="display('/')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" id="cb"onclick="display(4)"></td>
+            <td><input type="button" value="5" id="cb"onclick="display(5)"></td>
+            <td><input type="button" value="6" id="cb"onclick="display(6)"></td>
+            <td><input type="button" value="+" id="cb"onclick="display('+')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" id="cc"onclick="display(7)"></td>
+            <td><input type="button" value="8" id="cc"onclick="display(8)"></td>
+            <td><input type="button" value="9" id="cc"onclick="display(9)"></td>
+            <td><input type="button" value="-" id="cc"onclick="display('-')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="." id="cd"onclick="display('.')"></td>
+            <td><input type="button" value="0" id="cd"onclick="display(0)"></td>
+            <td><input type="button" value="," id="cd"onclick="display(',')"></td>
+            <td><input type="button" value="=" id="cd"onclick="calculation()"></td>
+        </tr>
+        </table>
+    </center>
+</body>
+</html>
